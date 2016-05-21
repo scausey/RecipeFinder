@@ -31,6 +31,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- ViewRecipeResults -->
+        <activity android:name=".RecipesRecylcerViewActivity"/>
+
         <activity
             android:name=".ViewRecipeDetailsActivity"
             android:label="@string/title_activity_view_recipe_details"

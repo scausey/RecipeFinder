@@ -58,9 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
     //Starts new intent to see recipe search results.
     public void showRecipeResults(String ingredientsText) {
-        Intent intentShowRecipeResult = new Intent(
-                MainActivity.this,
-                RecipesRecylcerViewActivity.class);
+        Intent intentShowRecipeResult = new Intent(MainActivity.this, RecipesRecylcerViewActivity.class);
         intentShowRecipeResult.putExtra(KEY_INGREDIENT, ingredientsText);
         startActivityForResult(intentShowRecipeResult, REQUEST_CODE_RECIPE_RESULTS);
     }

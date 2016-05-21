@@ -39,6 +39,9 @@
             android:name=".ViewRecipeDetailsActivity"
             android:label="@string/title_activity_view_recipe_details"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".RecipesRecyclerViewActivity"
+            ></activity>
     </application>
 
 </manifest>

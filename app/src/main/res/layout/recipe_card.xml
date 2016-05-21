@@ -30,8 +30,9 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:scaleType="center"
-            android:src="@mipmap/shashuka"
             android:layout_below="@+id/tvRecipeName"/>
+            <!--android:src="@mipmap/shashuka"-->
+
 
     </RelativeLayout>
 

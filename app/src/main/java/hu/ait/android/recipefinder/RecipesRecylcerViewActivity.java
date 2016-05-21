@@ -24,8 +24,7 @@ public class RecipesRecylcerViewActivity extends AppCompatActivity {
 
         recipeAdapter = new RecipeAdapter(this);
 
-        final RecyclerView recyclerView =
-                (RecyclerView) findViewById(R.id.recycler_view);
+        final RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         recyclerView.setHasFixedSize(true);
         // RecyclerView layout manager
         final LinearLayoutManager layoutManager = new LinearLayoutManager(this);

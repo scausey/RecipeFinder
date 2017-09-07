@@ -3,12 +3,12 @@ package hu.ait.android.recipefinder.data;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class RecipeResult {
+public class RecipeList {
     // http://www.jsonschema2pojo.org
 
     @SerializedName("id")
     @Expose
-    private Integer id;
+    private Integer recipeID;
     @SerializedName("title")
     @Expose
     private String title;
@@ -28,15 +28,15 @@ public class RecipeResult {
     /**
      * @return The id
      */
-    public Integer getId() {
-        return id;
+    public Integer getRecipeID() {
+        return recipeID;
     }
 
     /**
-     * @param id The id
+     * @param recipeID The id
      */
-    public void setId(Integer id) {
-        this.id = id;
+    public void setRecipeID(Integer recipeID) {
+        this.recipeID = recipeID;
     }
 
     /**
